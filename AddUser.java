@@ -433,7 +433,7 @@ public class AddUser extends JFrame {
             int width = (int) (getWidth() * scale);
             int height = (int) (getHeight() * scale);
 
-            // Dessiner le bouton
+            // Création du bouton
             g2.translate((getWidth() - width) / 2, (getHeight() - height) / 2);
             g2.scale(scale, scale);
             super.paintComponent(g2);
@@ -443,7 +443,7 @@ public class AddUser extends JFrame {
 
         @Override
         protected void paintBorder(Graphics g) {
-            // Ne pas dessiner de bordure pour la rendre invisible
+
         }
 
         @Override
