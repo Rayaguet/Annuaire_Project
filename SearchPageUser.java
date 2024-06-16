@@ -228,7 +228,7 @@ public class SearchPageUser extends JFrame {
         return userName;
     }
 
-    // JTextField personnalisé avec coins arrondis et bordure invisible
+    // JTextField avec coins arrondis et bordure invisible
     class RoundedTextField extends JTextField {
         private Shape shape;
         private int arcWidth;
