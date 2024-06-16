@@ -40,7 +40,7 @@ public class AddAdmin extends JFrame {
             @Override
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
-                // Dessiner l'image de fond adaptée à la taille du panneau
+                // Création l'image de fond adaptée à la taille du panneau
                 g.drawImage(backgroundIcon.getImage(), 0, 0, getWidth(), getHeight(), this);
             }
         };
