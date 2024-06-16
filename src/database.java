@@ -123,7 +123,7 @@ public class database {
         try {
             connection.setAutoCommit(false); // Start transaction
 
-            // Insert address
+            // Insertion address
             try (PreparedStatement stmtAdresse = connection.prepareStatement(insertAdresseQuery,
                     Statement.RETURN_GENERATED_KEYS)) {
                 stmtAdresse.setString(1, noRue);
@@ -135,7 +135,7 @@ public class database {
                 if (generatedKeys.next()) {
                     long adresseId = generatedKeys.getLong(1);
 
-                    // Insert user with the address ID
+                    // Insertion user with the address ID
                     try (PreparedStatement stmtUser = connection.prepareStatement(insertUserQuery)) {
                         stmtUser.setString(1, nom);
                         stmtUser.setString(2, prenom);
