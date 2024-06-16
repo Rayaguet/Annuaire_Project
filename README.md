@@ -86,6 +86,6 @@ La fonctionnalité de modification de son profil est réalisable par l'utilisate
 
 Afin d'avoir une bonne structure de code nous avons utiliser la structure MODEL/VUE/CONTROLLEUR
 
-[mvc](Images_Readme/mvc.jpg)
+![mvc](Images_Readme/mvc.jpg)
 
 ---
