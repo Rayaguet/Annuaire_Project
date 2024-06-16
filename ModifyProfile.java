@@ -59,7 +59,7 @@ public class ModifyProfile extends JFrame {
         JMenuBar menuBar = new JMenuBar();
         menuBar.setBackground(Color.WHITE);
 
-        // Remplacez le texte du bouton "Accueil" par une icône
+        // Remplace le texte du bouton "Accueil" par une icône
         ImageIcon homeIcon = new ImageIcon("images/menulogo.png"); // Remplacez par votre chemin d'icône
         JButton accueil = new JButton(homeIcon);
         accueil.setToolTipText("Accueil");
