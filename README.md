@@ -1,6 +1,6 @@
 # Présentation du Annuaire-Project
 
-![vegabot](images/vegabot.jpg)
+![PROJET](Images_Readme/PROJET.png)
 
 ## Sommaire
 - [I. Objectif](#ii-bot-discord)
