@@ -162,6 +162,7 @@ public class SearchPageAdmin extends JFrame {
 
         // Ajouter le bouton de menu déroulant avec la même animation que le bouton de
         // recherche
+
         ImageIcon menuIcon = new ImageIcon("images/menulogo.png");
         if (menuIcon.getIconWidth() == -1) {
             System.out.println("Image non trouvée : images/menulogo.png");
@@ -242,7 +243,7 @@ public class SearchPageAdmin extends JFrame {
         return userName;
     }
 
-    // JTextField personnalisé avec coins arrondis et bordure invisible
+    // JTextField avec coins arrondis et bordure invisible
     class RoundedTextField extends JTextField {
         private Shape shape;
         private int arcWidth;
@@ -267,7 +268,7 @@ public class SearchPageAdmin extends JFrame {
 
         @Override
         protected void paintBorder(Graphics g) {
-            // Ne pas dessiner de bordure pour la rendre invisible
+
         }
 
         @Override
