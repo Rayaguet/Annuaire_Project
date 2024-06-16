@@ -6,6 +6,7 @@ import java.util.List;
 public class InfoUsersforuser extends JFrame {
     final private Font mainFont = new Font("Times New Roman", Font.BOLD, 18);
 
+    // Constructeur qui prend une liste d'utilisateurs comme paramètre
     public InfoUsersforuser(List<User> users) {
         setTitle("User Info");
         setSize(800, 600);
