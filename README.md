@@ -3,22 +3,22 @@
 ![PROJET](Images_Readme/PROJET.png)
 
 ## Sommaire
-- [I. Objectif](#ii-bot-discord)
-  - [a. Objectif du projet](#a-commandes-simples)
+- [I. Objectif](#i-Objectif)
+  - [a. Objectif du projet](#a-Objectif-du-projet)
 
-- [II. Conception et SQL](#i-conception-et-sql)
+- [II. Conception et SQL](#ii-conception-et-sql)
   - [a. MCD](#a-mcd)
   - [b. MLD](#b-mld)
   - [c. MPD](#c-mpd)
   - [d. Structure de la base de données](#d-mpd)
 
-- [III. Réalisation](#i-conception-et-sql)
-  - [a. Interface de connexion](#a-mcd)
-  - [b. Interface de recherche](#b-mld)
-  - [c. Ajout d'un Adminstrateur et d'un utilisateur](#c-mpd)
-  - [d. Modification de son profil](#c-mpd)
+- [III. Réalisation](#iii-conception-et-sql)
+  - [a. Interface de connexion](#a-Interface-de-connexion)
+  - [b. Interface de recherche](#b-Interface-de-recherche)
+  - [c. Ajout d'un Adminstrateur et d'un utilisateur](#c-Ajout-d'un-Adminstrateur-et-d'un-utilisateur)
+  - [d. Modification de son profil](#d-Modification-de-son-profil)
 
-- [IV. Architecture utiliser](#i-conception-et-sql)  
+- [IV. Architecture utiliser](#i-Architecture-utiliser)  
 
 ## I. Note de cadrage
 
@@ -71,7 +71,7 @@ L'utilisateur, lui, pourra seulement modifier son profil ou se déconnecter.
 ![menu](Images_Readme/boutonmenu.png)
 
 
-### c. Ajout d'un Adminstrateur et un d'un utilisateur
+### c. Ajout d'un Adminstrateur et d'un utilisateur
 Comme dit précédemment, l'administrateur possède le droit d'ajouter un autre administrateur et d'ajouter un nouvel utilisateur. L'image ci-dessous montre, par exemple, l'ajout d'un administrateur via l'interface pour ensuite l'insérer directement dans la base de données, ce qui nous permettra ensuite de pouvoir le rechercher.
 
 ![ace](Images_Readme/ace.png)
