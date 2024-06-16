@@ -6,6 +6,7 @@ import java.util.List;
 public class Infosuserforadmin extends JFrame {
     final private Font mainFont = new Font("Times New Roman", Font.BOLD, 18);
 
+    // Constructeur qui prend une liste d'utilisateurs comme paramètre
     public Infosuserforadmin(List<User> users) {
         setTitle("User Info");
         setSize(800, 600);
@@ -32,6 +33,8 @@ public class Infosuserforadmin extends JFrame {
         mainPanel.setOpaque(false);
 
         for (User user : users) {
+            // Parcourir chaque utilisateur pour créer et ajouter leurs informations dans
+            // des panneaux séparés
             JPanel userInfoPanel = new JPanel();
             userInfoPanel.setLayout(new BoxLayout(userInfoPanel, BoxLayout.Y_AXIS));
             userInfoPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
