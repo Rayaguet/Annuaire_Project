@@ -31,17 +31,17 @@ l’ESIEE en s’inspirant par exemple de pages blanches, sauf qu’ici il est i
 ### a. MCD
 La conception du Modèle Conceptuel de Données (MCD) pour l'annuaire de l'école comprend les entités principales et leurs relations.
 
-![MCD](images/mcd.png)
+![MCD](Images_Readme/mcd.png)
 
 ### b. MLD
 Le Modèle Logique de Données (MLD) traduit le MCD en un schéma logique adapté à un système de gestion de base de données relationnelle.
 
-![MLD](images/mld.png)
+![MLD](Images_Readme/mld.png)
 
 ### c. MPD
 Le Modèle Physique de Données (MPD) détaille la structure de stockage des données sur le support physique.
 
-![MPD](images/mpd.png)
+![MPD](Images_Readme/mpd.png)
 
 ## III. Réalisation
 
