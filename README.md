@@ -18,6 +18,8 @@
   - [c. Ajout d'un Adminstrateur et d'un utilisateur](#c-mpd)
   - [d. Modification de son profil](#c-mpd)
 
+- [IV. Architecture utiliser](#i-conception-et-sql)  
+
 ## I. Note de cadrage
 
 ### a. Objectif du projet
@@ -29,7 +31,7 @@ en s’inspirant par exemple de pages blanches, sauf qu’ici il est implément�
 
 ## II. Conception et SQL
 
-Afin de bien organiser la conseption de notre base de données nous avons réaliser un MCD, un MLD et un MPD.
+Afin de bien organiser la conception de notre base de données nous avons réaliser un MCD, un MLD et un MPD.
 
 ### a. MCD
 La conception du Modèle Conceptuel de Données (MCD) pour l'annuaire de l'école comprend les entités principales et leurs relations.
@@ -79,5 +81,11 @@ Comme dit précédemment, l'administrateur possède le droit d'ajouter un autre 
 La fonctionnalité de modification de son profil est réalisable par l'utilisateur lorsqu'il souhaite modifier les informations de son profil. Comme on le voit sur l'image ci-dessous, la modification via l'interface effectue aussi la mise à jour dans la base de données.
 
 ![Ryan](Images_Readme/ryan.png)
+
+## IV. Architecture utiliser
+
+Afin d'avoir une bonne structure de code nous avons utiliser la structure MODEL/VUE/CONTROLLEUR
+
+[mvc](Images_Readme/mvc.jpg)
 
 ---
