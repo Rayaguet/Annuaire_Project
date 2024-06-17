@@ -84,7 +84,7 @@ La fonctionnalité de modification de son profil est réalisable par l'utilisate
 
 ## IV. Architecture utiliser
 
-Afin d'avoir une bonne structure de code nous avons utiliser la structure MODEL/VUE/CONTROLLEUR
+Afin d'avoir une bonne structure de code nous avons utiliser la structure MODEL/VUE/CONTRÔLEUR
 
 ![mvc](Images_Readme/mvc.jpg)
 
