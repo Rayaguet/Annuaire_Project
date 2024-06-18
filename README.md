@@ -18,7 +18,9 @@
   - [c. Ajout d'un Adminstrateur et d'un utilisateur](#c-Ajout-d'un-Adminstrateur-et-d'un-utilisateur)
   - [d. Modification de son profil](#d-Modification-de-son-profil)
 
-- [IV. Architecture utiliser](#i-Architecture-utiliser)  
+- [IV. Architecture utiliser](#iv-Architecture-utiliser)
+
+- [V. Répartition des tâches réalisées dans le groupe](#v-Répartition-des-tâches-réalisées-dans-le-groupe) 
 
 ## I. Note de cadrage
 
@@ -87,5 +89,10 @@ La fonctionnalité de modification de son profil est réalisable par l'utilisate
 Afin d'avoir une bonne structure de code nous avons utiliser la structure MODEL/VUE/CONTRÔLEUR
 
 ![mvc](Images_Readme/mvc.jpg)
+
+
+## V. Répartition des tâches réalisées dans le groupe
+
+![tâches](Images_Readme/taches.png)
 
 ---
